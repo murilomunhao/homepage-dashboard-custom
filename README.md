@@ -12,7 +12,9 @@ O Homepage continua sendo o aplicativo que exibe o dashboard. Este projeto não 
 
 ### Celular
 
-<img width="320" alt="Prévia do dashboard em celular" src="https://github.com/user-attachments/assets/fe5dabd3-f1a5-46e3-8c6a-06c2e4e9fdc1" />
+<p align="center">
+  <img width="320" alt="Prévia do dashboard em celular" src="https://github.com/user-attachments/assets/fe5dabd3-f1a5-46e3-8c6a-06c2e4e9fdc1" />
+</p>
 
 ## Por que este projeto existe
 
@@ -140,6 +142,10 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Se este projeto te ajudou de alguma forma, considere fazer uma doação:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E4I024A0VK)
+
+**PIX**: `536c8d7e-fb28-444f-8d58-7fd87397d401`
+
+![QR Code para doação via PIX](https://github.com/murilomunhao/boilerplate/blob/main/donate_pix_murilo.jpg)
 
 ---
 Desenvolvido com ❤️ por Murilo Munhão
