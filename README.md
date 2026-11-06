@@ -1,14 +1,18 @@
-<img width="1629" height="746" alt="01png" src="https://github.com/user-attachments/assets/800de807-b8c9-41d8-8955-f74d9301c9c3" />
-<img width="440" height="794" alt="02" src="https://github.com/user-attachments/assets/fe5dabd3-f1a5-46e3-8c6a-06c2e4e9fdc1" />
-
-
-
-
 # Homepage Dashboard Custom
 
 Projeto para personalizar o [Homepage](https://gethomepage.dev/) e gerar arquivos de configuração YAML a partir de um assistente interativo em Python. Ele reúne uma configuração inicial de dashboard e um instalador de linha de comando que ajuda a montar outra configuração para os serviços, categorias e integrações do seu ambiente.
 
 O Homepage continua sendo o aplicativo que exibe o dashboard. Este projeto não instala nem executa o Homepage, Docker, Glances ou Portainer: ele prepara os arquivos para você revisar e aplicar na instalação existente.
+
+## Prévia do dashboard
+
+### Desktop
+
+<img width="100%" alt="Prévia do dashboard em desktop" src="https://github.com/user-attachments/assets/800de807-b8c9-41d8-8955-f74d9301c9c3" />
+
+### Celular
+
+<img width="320" alt="Prévia do dashboard em celular" src="https://github.com/user-attachments/assets/fe5dabd3-f1a5-46e3-8c6a-06c2e4e9fdc1" />
 
 ## Por que este projeto existe
 
