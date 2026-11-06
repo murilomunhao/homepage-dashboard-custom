@@ -1,0 +1,30 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+
+- logo:
+    icon: "mdi-cpu-64-bit"
+
+- greeting:
+    text: "Intel(R) Core(TM) i5-2450M"
+    text_size: 1.5rem
+- datetime:
+    text_size: 2.5rem
+    format:
+      dateStyle: short
+
+- datetime:
+    text_size: 2.5rem
+    format:
+      timeStyle: medium
+      hourCycle: h23
+
+- glances:
+    url: http://localhost:61208
+    version: 4
+    cputemp: true
+    cpu: true
+    mem: true
+    disk: /
+    uptime: true

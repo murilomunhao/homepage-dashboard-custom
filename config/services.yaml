@@ -1,0 +1,103 @@
+- Ferramentas:
+    - OmniRoute:
+        icon: mdi-router-network
+        href: "http://localhost:20128"
+        description: "Gateway de IA"
+        container: tools_omniroute
+
+    - Open WebUI:
+        icon: open-webui.png
+        href: "http://localhost:8083"
+        description: "Interface de Chat"
+        container: ai_open_webui
+
+    - One Api:
+        icon: openai.png
+        href: "http://localhost:20129"
+        description: "Gateway de IA"
+        container: tools_one_api
+
+    - n8n:
+        icon: n8n.svg
+        href: "http://localhost:5678"
+        description: "Automação de Workflows"
+        container: tools_n8n
+
+- Infraestrutura:
+    - Portainer:
+        icon: portainer.svg
+        href: "http://localhost:9000"
+        description: "Docker Web GUI"
+        container: infra_portainer
+        widget:
+            type: portainer
+            url: "http://localhost:9000"
+            env: 6
+            key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
+
+    - Nginx Proxy Manager:
+        icon: nginx-proxy-manager.svg
+        href: "http://localhost:81"
+        description: "Gerenciador de Proxy Reverso"
+        container: infra_npm
+
+    - AdGuard Home:
+        icon: adguard-home.svg
+        href: "http://localhost:8086"
+        description: "DNS Sinkhole"
+        container: infra_adguard
+
+- Projetos:
+    - WordPress:
+        icon: wordpress.svg
+        href: "http://localhost:8081"
+        description: "Sites WordPress"
+        container: project_wordpress_app
+
+    - Laravel:
+        icon: laravel.svg
+        href: "http://localhost:8082"
+        description: "Projetos Laravel"
+        container: project_laravel_nginx
+
+    - TikLive:
+        icon: mdi-broadcast
+        href: "http://localhost:8085"
+        description: "Backend TikTok Live"
+        container: project_tiklive_front
+
+- Monitoramento:
+    - Core 0:
+        icon: mdi-thermometer
+        widget:
+          type: glances
+          url: "http://localhost:61208"
+          version: 4
+          metric: "sensor:Core 0"
+          chart: false
+
+    - Core 1:
+        icon: mdi-thermometer
+        widget:
+          type: glances
+          url: "http://localhost:61208"
+          version: 4
+          metric: "sensor:Core 1"
+          chart: false
+
+    - Rede:
+        icon: mdi-lan
+        widget:
+          type: glances
+          url: "http://localhost:61208"
+          version: 4
+          metric: "network:enp2s0"
+          chart: false
+
+    - Processos:
+        icon: mdi-format-list-numbered
+        widget:
+          type: glances
+          url: "http://localhost:61208"
+          version: 4
+          metric: "process"

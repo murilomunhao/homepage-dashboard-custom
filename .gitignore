@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local project state / generated output
+.generated/
+generated/
+.homepage-installer-state.json
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
