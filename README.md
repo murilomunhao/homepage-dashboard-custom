@@ -21,7 +21,7 @@ O instalador usa somente a biblioteca padrão do Python; não é necessário ins
 Clone o repositório e entre na pasta do projeto:
 
 ```bash
-git clone <URL-DO-REPOSITORIO>
+git clone https://github.com/murilomunhao/homepage-dashboard-custom.git
 cd homepage-dashboard-custom
 ```
 
@@ -75,10 +75,10 @@ Um serviço adicionado pelo assistente é representado em `services.yaml` em uma
 
 ```yaml
 - Infraestrutura:
-		- Home Assistant:
-				icon: mdi-home-assistant
-				href: "http://localhost:8123"
-				description: "Automação residencial"
+    - Home Assistant:
+        icon: mdi-home-assistant
+        href: "http://localhost:8123"
+        description: "Automação residencial"
 ```
 
 O layout correspondente aparece em `settings.yaml`:
@@ -87,9 +87,9 @@ O layout correspondente aparece em `settings.yaml`:
 title: "Meu Dashboard"
 theme: "dark"
 layout:
-	Infraestrutura:
-		style: row
-		columns: 3
+  Infraestrutura:
+    style: row
+    columns: 3
 ```
 
 Os exemplos refletem os dados informados no assistente. Atualize `localhost` para o hostname ou endereço que o navegador do usuário do dashboard consegue acessar; `localhost` só funciona quando o serviço está no mesmo computador que abre o Homepage.
@@ -130,11 +130,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Se este projeto te ajudou de alguma forma, considere fazer uma doação:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E4I024A0VK)
-
-**PIX**: `536c8d7e-fb28-444f-8d58-7fd87397d401`
-
-![](https://github.com/murilomunhao/boilerplate/blob/main/donate_pix_murilo.jpg)
-
 
 ---
 Desenvolvido com ❤️ por Murilo Munhão
